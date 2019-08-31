@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tlinux/CLionProjects/coroutine/main.c
+stdio.h
+-
+ucontext.h
+-
+setjmp.h
+-
+stdlib.h
+-
+zconf.h
+-
+sys/mman.h
+-
+
