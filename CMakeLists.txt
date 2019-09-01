@@ -9,5 +9,5 @@ ENDIF(APPLE)
 
 add_library(coroutine stack.c coroutine.c)
 
-add_executable(coroutine_test main.c)
+add_executable(coroutine_test test.c)
 target_link_libraries(coroutine_test coroutine)
